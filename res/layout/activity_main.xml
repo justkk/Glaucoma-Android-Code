@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/landing"
+    android:focusable="true"
+    tools:context="com.example.hello.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="179dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="122dp"
+    android:text="File a Case" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/button2"
+    android:layout_alignRight="@+id/button2"
+    android:layout_below="@+id/button2"
+    android:layout_marginTop="33dp"
+    android:text="Report Case" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/button3"
+    android:layout_alignRight="@+id/button3"
+    android:layout_below="@+id/button3"
+    android:layout_marginTop="24dp"
+    android:text="Link With DB" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/button1"
+    android:layout_alignRight="@+id/button1"
+    android:layout_below="@+id/button1"
+    android:layout_marginTop="19dp"
+    android:text="Edit Case" />
+
+</RelativeLayout>
